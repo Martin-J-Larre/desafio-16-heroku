@@ -10,7 +10,7 @@ class controllerMethods {
     
     async root( req, res) {
         loggerInfo.info(`Root: Path "${req.route.path}" Method "${req.route.stack[0].method}"`)
-        res.render("./pages/index", {titulo: "DESAFÍO IMPLEMENTAR NUESTRO PROYECTO "});
+        res.render("./pages/index", {titulo: "DESAFÍO IMPLEMENTAR NUESTRO PROYECTO EN HEROKU"});
     }
 
     async getInfo(req, res) {
